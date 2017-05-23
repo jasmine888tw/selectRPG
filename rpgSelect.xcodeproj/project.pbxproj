@@ -505,6 +505,7 @@
 				8044A81F1ED2C86C0098AF99 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8044A8201ED2C86C0098AF99 /* Build configuration list for PBXNativeTarget "rpgSelectTests" */ = {
 			isa = XCConfigurationList;
@@ -513,6 +514,7 @@
 				8044A8221ED2C86C0098AF99 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8044A8231ED2C86C0098AF99 /* Build configuration list for PBXNativeTarget "rpgSelectUITests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +523,7 @@
 				8044A8251ED2C86C0098AF99 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
