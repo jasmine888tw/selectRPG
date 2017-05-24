@@ -132,14 +132,6 @@
                                         <color key="textColor" red="1" green="0.80000000000000004" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <button hidden="YES" opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gSG-qj-Erp" userLabel="ButtonDown">
-                                        <rect key="frame" x="136" y="608" width="104" height="28"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <state key="normal" backgroundImage="againBottom"/>
-                                        <connections>
-                                            <action selector="againStart:" destination="BYZ-38-t0r" eventType="touchUpInside" id="fdv-ak-7ka"/>
-                                        </connections>
-                                    </button>
                                 </subviews>
                                 <color key="backgroundColor" red="0.0" green="0.80392156862745101" blue="0.74117647058823533" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
@@ -165,7 +157,6 @@
                         </constraints>
                     </view>
                     <connections>
-                        <outlet property="again" destination="gSG-qj-Erp" id="Puh-fp-8Sf"/>
                         <outlet property="age" destination="vpx-5y-2LY" id="5Cz-8q-Y0Y"/>
                         <outlet property="agelabel" destination="dXA-bb-YkD" id="o3L-7A-olJ"/>
                         <outlet property="ansBad" destination="gY6-jQ-UdA" id="lEe-uC-jqS"/>
@@ -184,7 +175,6 @@
         </scene>
     </scenes>
     <resources>
-        <image name="againBottom" width="218" height="59"/>
         <image name="ansBad" width="789" height="672"/>
         <image name="ansBarver" width="789" height="672"/>
         <image name="ansDevil" width="781" height="1389"/>

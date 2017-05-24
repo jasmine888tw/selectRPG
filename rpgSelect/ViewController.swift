@@ -37,7 +37,6 @@ class ViewController: UIViewController {
     @IBOutlet weak var ansVillager: UIImageView!
     @IBOutlet weak var ansBraver: UIImageView!
     @IBOutlet weak var ansBad: UIImageView!
-    @IBOutlet weak var again: UIButton!
     
     @IBAction func imWhat(_ sender: Any) {
         if switchHuman.isOn && age.value<100 && world.selectedSegmentIndex==0{
@@ -46,7 +45,6 @@ class ViewController: UIViewController {
             ansVillager.isHidden = true
             ansBraver.isHidden = false//勇者
             ansBad.isHidden = true
-            again.isHidden = true
         }
         
         else if switchHuman.isOn && age.value<100 && world.selectedSegmentIndex==2{
@@ -55,7 +53,6 @@ class ViewController: UIViewController {
             ansVillager.isHidden = false//村民
             ansBraver.isHidden = true
             ansBad.isHidden = true
-            again.isHidden = true
         }
             
         else if switchHuman.isOn==false && age.value==666 && world.selectedSegmentIndex==1{
@@ -64,7 +61,6 @@ class ViewController: UIViewController {
             ansVillager.isHidden = true
             ansBraver.isHidden = true
             ansBad.isHidden = true
-            again.isHidden = false
         }
             
         else{
@@ -73,20 +69,19 @@ class ViewController: UIViewController {
             ansVillager.isHidden = true
             ansBraver.isHidden = true
             ansBad.isHidden = false//嘍嘍
-            again.isHidden = true
             
         }
     }
     
-    @IBAction func againStart(_ sender: Any) {
+/*    @IBAction func againStart(_ sender: Any) {
         blankBlue.isHidden = true
         ansDevil.isHidden = true
         ansVillager.isHidden = true
         ansBraver.isHidden = true
         ansBad.isHidden = true
         again.isHidden = true
-    }
-    
+    }//這邊不需要，因為image view不會擋住按鈕
+ */
     
     
     override func viewDidLoad() {
